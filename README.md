@@ -1,6 +1,6 @@
 # twitter-scraper
 
-Requires csv and tweepy libraries and twitter api access.
+The scraper requires twitter api access. It is also restricted by an api rate limit and tweet limit per user (3200). Scraper waits on rate limit and continues once lifted.
 
 Retrieves the following user information:
 - id
